@@ -42,7 +42,6 @@ function addThreeAwayPoints() {
     away += 3
     const plusThreeAway = document.getElementById('currentAwayScore')
     plusThreeAway.innerText = away
-    updatedScore()
     gameOver()
 
 }
